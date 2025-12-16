@@ -1,0 +1,17 @@
+# Ignore vector DB and large binary artifacts
+vectorstore/
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+app/.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
